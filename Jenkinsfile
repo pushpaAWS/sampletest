@@ -17,9 +17,9 @@ node {
             app.push("latest")
         }
     }
-    stage('Deploy Helm Charts') {
-        sh 'helm upgrade --install website ./website/'
-    }
+//     stage('Deploy Helm Charts') {
+//         sh 'helm upgrade --install website ./website/'
+//     }
         
     
     stage('Email Notification') {
