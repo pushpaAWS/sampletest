@@ -18,7 +18,7 @@ node {
         }
     }
     stage('Deploy Helm Charts') {
-        sh 'helm upgrade --install website ./website/
+        sh 'helm upgrade --install website ./website/'
     }
         
     
